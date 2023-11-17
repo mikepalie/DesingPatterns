@@ -14,19 +14,15 @@ namespace Observer.RealWorld
             // Create IBM stock and attach investors
 
             IBM ibm = new IBM("IBM", 120.00);
-            ibm.Attach(new Investor("Sorros"));
-            ibm.Attach(new Investor("Berkshire"));
+            Investor i1 = new Investor("Kostis");
+            Investor i2 = new Investor("Maria");
 
-            // Fluctuating prices will notify investors
+            ibm.Attach(i1);
+            ibm.Attach(i2);
 
-            ibm.Price = 120.10;
-            ibm.Price = 121.00;
-            ibm.Price = 120.50;
-            ibm.Price = 120.75;
+            ibm.Price = 160.00;
 
-            // Wait for user
 
-            Console.ReadKey();
         }
     }
 
