@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonA", "SingletonA\Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{2A614826-5BE4-4413-89C3-5A941EA4CC38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverA", "ObserverA\ObserverA.csproj", "{F81A64E5-1FB7-42D6-A268-C1BD8526087F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2A614826-5BE4-4413-89C3-5A941EA4CC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A614826-5BE4-4413-89C3-5A941EA4CC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A614826-5BE4-4413-89C3-5A941EA4CC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81A64E5-1FB7-42D6-A268-C1BD8526087F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81A64E5-1FB7-42D6-A268-C1BD8526087F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81A64E5-1FB7-42D6-A268-C1BD8526087F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81A64E5-1FB7-42D6-A268-C1BD8526087F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
