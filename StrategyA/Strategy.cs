@@ -5,9 +5,8 @@ namespace Strategy.RealWorld
     /// <summary>
     /// The 'Strategy' abstract class
     /// </summary>
-
-    public abstract class SortStrategy
+    public abstract class Strategy
     {
-        public abstract void Sort(List<string> list);
+        public abstract void AlgorithmInterface();
     }
 }

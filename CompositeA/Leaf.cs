@@ -9,7 +9,7 @@ namespace Composite.Structural
     public class Leaf : Component
     {
         // Constructor
-        public override int Price { get; set; }
+        public override int Price { get; protected set; }
         public Leaf(string name, int price): base(name)
         {
             Price = price;

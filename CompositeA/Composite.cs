@@ -22,7 +22,7 @@ namespace Composite.Structural
                 return children.Sum(x=>x.Price);
             
             }
-            set { price = value; }
+            protected set { price = value; }
         }
 
 

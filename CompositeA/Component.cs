@@ -7,7 +7,7 @@
     public abstract class Component
     {
         protected string name;
-        public abstract int Price { get; set; }
+        public abstract int Price { get; protected set; }
 
         // Constructor
 
