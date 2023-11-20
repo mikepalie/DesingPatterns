@@ -10,6 +10,8 @@ namespace Assignment3.VariationStrategy
     public interface IVariationStrategy
     {
         void Cost(TShirt Tshirt);
+        
+
 
 
 
